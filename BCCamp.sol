@@ -6,8 +6,10 @@ contract BCCamp {
 // and if he/she is enjoying or not, every student information should be bound with his/her ethereum account address.
     
 // your code here
-
-
+unstruct student {
+string name;
+int age;
+isEnjoying bool
     
     function addStudent(address _address, uint _age, string name, bool _isEnjoying) public {
        // your code here
